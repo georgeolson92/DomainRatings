@@ -1,0 +1,16 @@
+<h1>Today's Top 10 Domains</h1>
+<hr>
+<div class="domains">
+    <div class="row domain" *ngFor="let domain of domains">
+        <div class="col-md-2">
+            <a href="#" (click)="upVote(domain)">
+                upvote
+            </a>
+            <a href="#" (click)="downVote(domain)">
+                downvote
+            </a>
+        </div>
+        <div class="col-md-2"><span class="rating">{{domain.Rating}}</span></div>   
+        <div class="col-md-8"><h2>{{domain.URL}}</h2></div>
+    </div>
+</div>
