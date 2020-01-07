@@ -1,8 +1,8 @@
-<h1>Today's Top 10 Domains</h1>
+<h1>Today's Top Rated Domains</h1>
 <hr>
-<ul class="domains list-group">
+<ul class="domains list-group" *ngFor="let domain of domains">
     <li class="list-group-item">
-        <div class="row domain" *ngFor="let domain of domains">
+        <div class="row domain">
             <div class="col-md-2">
                 <a href="#" (click)="upVote(domain)">
                     Upvote+

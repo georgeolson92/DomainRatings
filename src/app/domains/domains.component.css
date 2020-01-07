@@ -8,3 +8,12 @@
     font-size: 1.5em;
     padding-top: 5px;
 }
+
+.domain .rating {
+    position: relative;
+    top: 15px;
+}
+
+.domain h2 {
+    padding-top: 12px;
+}
