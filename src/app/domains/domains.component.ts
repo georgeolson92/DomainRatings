@@ -8,7 +8,7 @@ import SampleJson from '../domains.json';
   styleUrls: ['./domains.component.css']
 })
 export class DomainsComponent implements OnInit {
-  domains: any = (SampleJson as any).domains;
+  domains: any = (SampleJson as any);
 
   constructor() { }
 
