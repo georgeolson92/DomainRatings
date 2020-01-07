@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Instructions
 
-Use the Domain Generator application to generate a json file listing randomly generated domains. Copy this json file into the src/app folder of this application to load domains onto the page.
+Use the Domain Generator application to generate a json file listing randomly generated domains. Copy this json file into the src/app folder of this application to load domains onto the page. A placeholder domains.json file may already exist, feel free to overwrite with a newer version.
 
 ## Development server
 
